@@ -1,0 +1,28 @@
+{
+	"name": "On Sunday,",
+	"version": "0.1.0",
+	"description": "On Sunday,",
+	"manifest_version": 2,
+	"browser_action": {
+		"default_icon": {
+			"16": "img/active.png",
+			"24": "img/active.png",
+			"32": "img/active.png"
+		},
+		"default_title": "On Sunday,",
+		"js": "jquery-3.2.1.slim.min.js"
+	},
+	"background": {
+		"scripts": ["background.js"],
+		"persistent": false
+	},
+    "chrome_url_overrides" : {
+        "newtab": "hi.html"
+    },
+    "permissions": [
+        "geolocation",
+        "unlimitedStorage",
+        "*://*.yahooapis.com/*"
+    ]
+}
+
