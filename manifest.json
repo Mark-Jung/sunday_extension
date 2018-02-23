@@ -13,11 +13,11 @@
 		"js": "jquery-3.2.1.slim.min.js"
 	},
 	"background": {
-		"scripts": ["background.js"],
+		"scripts": ["jquery-3.2.1.slim.min.js", "tab.js"],
 		"persistent": false
 	},
     "chrome_url_overrides" : {
-        "newtab": "hi.html"
+        "newtab": "tab.html"
     },
     "permissions": [
         "geolocation",

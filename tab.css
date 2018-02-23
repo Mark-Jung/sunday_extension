@@ -1,0 +1,20 @@
+body {
+    background-image: url("https://source.unsplash.com/collection/139386/1480x750");
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+#git-issues {
+    float: right;
+    background-color: black;
+    width: 22rem;
+    height: 100%;
+    opacity: 0.7;
+    border-radius: 25px;
+}
+
+#git-issues ul li {
+    color: white;
+}
