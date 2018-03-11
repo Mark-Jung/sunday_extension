@@ -1,9 +1,9 @@
 body {
-    background-image: url("https://source.unsplash.com/collection/139386/1480x750");
+    background: url("{{url_for('static', filename='img/cat.jpg')}} ") center;
     background-repeat: no-repeat;
     display: flex;
     justify-content: space-between;
-    color: white;
+    /*color: white;*/
 }
 
 #git-issues {
